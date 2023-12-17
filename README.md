@@ -19,3 +19,6 @@ Project work for the course ID2223. Sentiment analysis for YouTube comments and 
 > \>cat .api_key  
 KEY=PASTE_VALUE_HERE
 
+## To-Do
+
+Separate the UI logic from the inference serving history logic. 
