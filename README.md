@@ -16,3 +16,6 @@ Project work for the course ID2223. Sentiment analysis for YouTube comments and 
 
 ### Save your YouTube API Key in a ".api_key" file in the main or root directory. 
 
+> \>cat .api_key  
+KEY=PASTE_VALUE_HERE
+
