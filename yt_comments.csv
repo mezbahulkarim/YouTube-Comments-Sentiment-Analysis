@@ -1,0 +1,28 @@
+text
+thankyou adam
+good video
+How many maximum comments can we pull at a time ? I can pull 20 commments . But I want to get more .. Help us
+Only the top level comments are returned through the API. How do we get all the comments?
+How do I put the comments into spreadsheet?
+Finally got around to making the advanced video. Find out how to Scrape all comments and attributes here <a href=https://youtu.be/0FtcHjI5lmw?si=QtUjhVqTXJS3YKZP>https://youtu.be/0FtcHjI5lmw?si=QtUjhVqTXJS3YKZP</a>
+wow
+works with live video ?
+Great video! will it also scrape Instagram videos?
+Thank you so much! Great video. Looking forward to the second part
+Great video! Can you make an explain video on how to write the code for these pull comments? Why do we need these libraries? Where can we find the format &#39; youtube = googleapiclient.discovery.build&#39;? Thank you vary much!
+"I tried to make a loop to get all the videos from a channel and scrape all the comments. However, it gave the following error &quot;the request cannot be completed because you have exceeded your quota&quot; - From what I understand, the API has a daily request limit, is that it? - In fact, when the video has a private comment, the request returns 403."
+"Hi, i Found this video to be very helpfull in my research, I am wondering if there is a way to get the result to be top comment instead of latest comment ?"
+Does this work with Youtube shorts?
+No te olvides de continuar este proyecto y agregar mas paginacion a los 100 comentarios por favor
+"question, i&#39;m currently using the youtube api to get comments from a video, however, for some reason, the api also gets the comments deleted by the channel&#39;s owner (like scam comments or hateful comments that were deleted from the video comments for obvious reasons) is there any way to remove those type of comments from the api request without having to find every single hateful comment&#39;s id and remove them manually?"
+"But it doesn&#39;t show all the comments, even changing the &quot;maxResults&quot; variable :("
+Thank you so much Adam .It is really very helpful.
+"Very helpful video. I was doing web scrapping using bs4 and selenium, but this API way is very good and easy."
+Can i scrap any youtube video? Or just the video that i have on my channel?
+"hi, how to fetch real time data from you tube, please guide me"
+"Thanks, easy peasy! Is there a way we can have a column for language?"
+"Thanks, Adam. This was easy and straightforward. <br>Is it possible to get up to 1000 comments using this cos it seems there&#39;s a cap of 100 even after I changed the limit"
+"Just a question, do we have to pay to use google cloud platform?"
+"Thank you, Adam! Very straightforward!"
+"hey Adam,<br>Thank you for this video, I will really appreciate if you upload another videos[Advance] on the same topic. Waiting........"
+Thank you for this Adam. Great tuorial

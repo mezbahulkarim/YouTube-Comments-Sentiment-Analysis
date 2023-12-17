@@ -13,3 +13,6 @@ Project work for the course ID2223. Sentiment analysis for YouTube comments and 
 - Credentials
 - Create API Credentials
 - API Key
+
+### Save your YouTube API Key in a ".api_key" file in the main or root directory. 
+
