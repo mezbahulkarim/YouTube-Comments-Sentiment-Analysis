@@ -19,6 +19,10 @@ Project work for the course ID2223. Sentiment analysis for YouTube comments and 
 > \>cat .api_key  
 KEY=PASTE_VALUE_HERE
 
+## To label the data we will use VADER Sentiment Analysis
+- Repo: https://github.com/cjhutto/vaderSentiment
+- pypi link: https://pypi.org/project/vaderSentiment/
+
 ## To-Do
 
 Separate the UI logic from the inference serving history logic. 
