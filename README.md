@@ -1,6 +1,13 @@
 # YouTube-Comments-Sentiment-Analysis
 Project work for the course ID2223. Sentiment analysis for YouTube comments and a UI to generate a positive to negative comment ratio from a YouTube video link.
 
+## Workflow
+
+Execute the files in this order:
+1. fetch_comments.ipynb
+2. feature_engineering.ipynb
+3. training.ipynb 
+
 ## Enabling YouTube API 
 
 - Log in to the Gmail/Google account you want to use on the browser
