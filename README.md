@@ -1,6 +1,12 @@
 # YouTube-Comments-Sentiment-Analysis
 Project work for the course ID2223. Sentiment analysis for YouTube comments and a UI to generate a positive to negative comment ratio from a YouTube video link.
 
+Sentiment scores explained:
+
+- -1 to less than 0 = Negative
+- 0 = Neutral
+- Greater than 0 and up to 1 = Positive
+
 ## Workflow
 
 Execute the files in this order:
