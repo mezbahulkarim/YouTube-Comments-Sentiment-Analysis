@@ -26,7 +26,7 @@ def g():
     import seaborn as sns
     import requests
 
-    project = hopsworks.login(api_key_value="LR2zRcmisfNRQu0h.Hk1RWXOxv3HzMk54dE7iYDFMawiK6PYxb42sjHx8iQsc7D0h6Fsy76Ult5OJFmSi")
+    project = hopsworks.login(api_key_value="ENTER VALUE")
     fs = project.get_feature_store()
     
     # Download the model saved 
