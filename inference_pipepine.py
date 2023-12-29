@@ -28,7 +28,7 @@ def g():
     from sklearn.feature_extraction.text import TfidfVectorizer
     import random
 
-    project = hopsworks.login(api_key_value="ENTER VALUE")
+    project = hopsworks.login(api_key_value="ENTER HOPSWORKS VALUE")
     fs = project.get_feature_store()
     
     # Download the model saved 

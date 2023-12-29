@@ -21,14 +21,14 @@ def g():
     import pandas as pd
     from googleapiclient.discovery import build
 
-    project = hopsworks.login(api_key_value="LR2zRcmisfNRQu0h.Hk1RWXOxv3HzMk54dE7iYDFMawiK6PYxb42sjHx8iQsc7D0h6Fsy76Ult5OJFmSi")
+    project = hopsworks.login(api_key_value="HOPS KEY")
     fs = project.get_feature_store()
 
     #Youtube object
     youtube = build(
     'youtube',
     'v3',
-    developerKey="AIzaSyAOsM68BSlRzcCReBf1Houhoe9zvTAaNFU"
+    developerKey="YT KEY"
     )
 
     # Returns video id of top search result

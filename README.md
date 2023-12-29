@@ -13,6 +13,8 @@ Execute the files in this order:
 1. fetch_comments.ipynb
 2. feature_engineering.ipynb
 3. training.ipynb 
+4. feature_pipeline_daily.py
+5. inference_pipeline.py
 
 ## Enabling YouTube API 
 
