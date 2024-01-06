@@ -67,7 +67,10 @@ def sentiment(video_link):
     predictions = model.predict(comments_features)
     positive_count = sum(predictions > 0)
     negative_count = sum(predictions < 0)
-    return positive_count, negative_count
+    total_count = len(predictions)
+    positive_percentage = (positive_count / total_count) * 100
+    negative_percentage = (negative_count / total_count) * 100
+    return positive_count, negative_count, f"{positive_percentage:.2f}%", f"{negative_percentage:.2f}%"
         
 demo = gr.Interface(
     fn=sentiment,
@@ -78,6 +81,8 @@ demo = gr.Interface(
     outputs=[
         gr.Number(label="The number of positive comments", default=0), 
         gr.Number(label="The number of negative comments", default=0),
+        gr.Textbox(label="Percentage of positive comments", name="positive_percentage"),
+        gr.Textbox(label="Percentage of negative comments", name="negative_percentage"),
     ],
 )
 
