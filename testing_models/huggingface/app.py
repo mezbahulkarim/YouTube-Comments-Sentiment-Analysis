@@ -26,7 +26,7 @@ fs = project.get_feature_store()
 
 
 mr = project.get_model_registry()
-model = mr.get_model("comments_model", version=1)
+model = mr.get_model("comments_model", version=1)           # HARD CODED
 model_dir = model.download()
 model = joblib.load(model_dir + "/comments_model.pkl")
 vectorizer = joblib.load(model_dir + "/vectorizer.pkl")
