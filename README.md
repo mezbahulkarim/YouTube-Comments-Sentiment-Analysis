@@ -40,7 +40,7 @@ KEY=PASTE_VALUE_HERE
 - pypi link: https://pypi.org/project/vaderSentiment/
 
 ## Dataset
-- The dataset used in this project consists of comments from YouTube videos. These comments were collected using the YouTube API, and the sentiment of each comment was labeled as positive or negative. The dataset includes features such as the comment text and sentiment label.
+- The dataset used in this project consists of comments from YouTube videos. These comments were collected using the YouTube API, and the sentiment of each comment was labeled numerically using VADER. The dataset includes features such as the comment text and sentiment label.
 
 
 ## To-Do
@@ -48,6 +48,7 @@ KEY=PASTE_VALUE_HERE
 - Training models: choose Random Forest Regressor model for sentiment analysis and evaluate model performance using Mean Squared Error and Root Mean Squared Error metrics.
 - Deployment on Hopsworks
 - Gradio Interface
+- Huggingface App
 
 ## Results
 - Achieved promising results in sentiment analysis with Random Forest Regression model.
