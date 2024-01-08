@@ -10,13 +10,10 @@ import gradio as gr
 import hopsworks
 import joblib
 import pandas as pd
-from dotenv import load_dotenv, dotenv_values
 from googleapiclient.discovery import build
 import re
 
-config = dotenv_values(".api_key")
-key_value = config["KEY"]
-hopsworks_key = config["HOPSWORKS_KEY"]
+hopsworks_key = "KEY VALUE"
 
 youtube = build(
     'youtube',
