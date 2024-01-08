@@ -60,11 +60,13 @@ Data Collection:
 - Set up a Google API key for YouTube API access.
 - Configure the .api_key file with YouTube API key and Hopsworks API key.
 - Run the data collection code to gather comments from YouTube videos.
+  
 Model Training and Deployment:
 
 - Configure the .api_key file with YouTube API key and Hopsworks API key.
 - Train machine learning models using the provided code.
 - Deploy models and vectorizer to Hopsworks Model Registry.
+  
 Gradio Interface:
 
 - Configure the .api_key file with YouTube API key and Hopsworks API key.
