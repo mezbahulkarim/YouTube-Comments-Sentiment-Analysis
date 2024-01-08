@@ -39,6 +39,37 @@ KEY=PASTE_VALUE_HERE
 - Repo: https://github.com/cjhutto/vaderSentiment
 - pypi link: https://pypi.org/project/vaderSentiment/
 
-## To-Do
+## Dataset
+- The dataset used in this project consists of comments from YouTube videos. These comments were collected using the YouTube API, and the sentiment of each comment was labeled as positive or negative. The dataset includes features such as the comment text and sentiment label.
 
-Separate the UI logic from the inference serving history logic. 
+
+## To-Do
+- Data Collection: Utilize the YouTube API to collect comments from specific videos and implement a function to extract video IDs from YouTube video links.
+- Training models: choose Random Forest Regressor model for sentiment analysis and evaluate model performance using Mean Squared Error and Root Mean Squared Error metrics.
+- Deployment on Hopsworks
+- Gradio Interface
+
+## Results
+- Achieved promising results in sentiment analysis with Random Forest Regression model.
+- Mean Squared Error and Root Mean Squared Error were used to evaluate model performance.
+- The Gradio interface provides a user-friendly way to interact with the sentiment analysis system.
+
+## How to run the code
+Data Collection:
+
+- Set up a Google API key for YouTube API access.
+- Configure the .api_key file with YouTube API key and Hopsworks API key.
+- Run the data collection code to gather comments from YouTube videos.
+Model Training and Deployment:
+
+- Configure the .api_key file with YouTube API key and Hopsworks API key.
+- Train machine learning models using the provided code.
+- Deploy models and vectorizer to Hopsworks Model Registry.
+Gradio Interface:
+
+- Configure the .api_key file with YouTube API key and Hopsworks API key.
+- Run the Gradio interface code.
+- Access the Gradio interface through the provided link, enter a YouTube video link, and analyze sentiment interactively.
+
+## Conclusion
+The YouTube Comment Sentiment Analysis project successfully demonstrates the end-to-end process of collecting data from YouTube, training machine learning models, deploying them on Hopsworks, and creating a user interface for sentiment analysis. The project provides valuable insights into audience sentiment for YouTube content creators and researchers interested in analyzing user feedback.
