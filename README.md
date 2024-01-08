@@ -15,6 +15,7 @@ Execute the files in this order:
 3. training.ipynb 
 4. feature_pipeline_daily.py
 5. inference_pipeline.py
+6. app.py
 
 ## Enabling YouTube API 
 
